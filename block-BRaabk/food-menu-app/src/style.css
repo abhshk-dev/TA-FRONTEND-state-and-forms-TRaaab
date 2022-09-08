@@ -159,8 +159,60 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-li {
-  margin-right: 1rem;
+.tags li {
+  margin-right: 1.5rem;
+  color: goldenrod;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+}
+
+.tags li:hover {
+  background-color: rgb(195, 192, 192);
+  color: #fff;
+  border: 1px solid rgb(227, 209, 48);
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu li {
+  border: 1px solid black;
+  padding: 1.25rem;
+  margin: 1rem 0;
+  box-shadow: 12px 6px 20px #dec6c6;
+  border-radius: 1rem;
+}
+.menu li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+h3 {
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(75, 79, 17);
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgba(5, 1, 1, 0.915);
+  padding: 1rem 0;
 }
