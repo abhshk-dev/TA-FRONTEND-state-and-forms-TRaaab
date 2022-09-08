@@ -159,13 +159,19 @@ li {
   color: rgb(23, 17, 17);
   border: 3px solid black;
   text-transform: capitalize;
-  display: flex;
+  /*display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;*/
 }
 
 button {
   border: 0;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+
+p {
+  margin: 12px 0;
+  font-size: 18px;
+  color: rgb(69, 62, 62);
 }
