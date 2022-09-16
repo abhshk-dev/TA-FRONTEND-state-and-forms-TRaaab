@@ -138,3 +138,44 @@ table {
 html {
   font-size: 16px;
 }
+body {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 1em;
+}
+
+form {
+  width: 400px;
+  margin: 2em auto;
+  padding: 1em;
+  border: 1px solid black;
+}
+label {
+  padding: 0.5em 0;
+}
+
+input {
+  margin: 0.5em 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+span {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}

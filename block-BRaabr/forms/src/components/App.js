@@ -1,7 +1,14 @@
 import React from "react";
+import MultiForm from "./MultiForm";
+import Validation from "./Validation";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <MultiForm />
+      <Validation />
+    </>
+  );
 }
 
 export default App;
