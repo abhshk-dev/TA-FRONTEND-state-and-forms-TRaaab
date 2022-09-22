@@ -1,12 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Master extends Component {
-  // constructor(props) {
-  //     super(props);
-  // }
-  // state = {  }
+class Master extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  state = {
+    currentStep: 0,
+    previous: "",
+    next: "",
+  };
   render() {
-    return <h1>Hello WOrld</h1>;
+    return;
   }
 }
 
