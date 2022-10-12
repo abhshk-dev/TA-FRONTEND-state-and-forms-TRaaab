@@ -22,7 +22,6 @@ class Products extends React.Component {
             return true;
           }
         }
-        return sortedProducts;
       });
     }
 
